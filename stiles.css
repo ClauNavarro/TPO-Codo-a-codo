@@ -3,7 +3,12 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: rgba(29, 83, 134, 0.432);
+    background-color: rgba(29, 83, 134, 0.432) !important;
+    background: linear-gradient(45deg, violet 5%, transparent 2%, transparent 90%, violet 5%, violet), 
+    linear-gradient(45deg, violet 5%, transparent 2%, transparent 90%, violet 5%, violet);
+    background-size: 30px 30px;
+    width: 100vw;
+    height: 100vh;
 }
 .navbar {
     width: 100%;
@@ -138,13 +143,7 @@ body {
     border-left: 0.3em solid rgba(214, 18, 204, 0.596);
     border-right: 0.3em solid rgba(214, 18, 204, 0.596);
 }
-  .containera {
-    background: linear-gradient(45deg, violet 5%, transparent 2%, transparent 90%, violet 5%, violet), 
-                linear-gradient(45deg, violet 5%, transparent 2%, transparent 90%, violet 5%, violet);
-    background-size: 30px 30px;
-    width: 100vw;
-    height: 100vh;
-  }
+
 section{ 
     display: grid;
     place-items: center;
